@@ -101,3 +101,6 @@ li { ... }
     transform: translateY(0);
   }
 }
+li button {
+  float: right;
+}
