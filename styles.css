@@ -76,7 +76,6 @@ ul {
     opacity: 1;
     transform: translateY(0);
   }
-}
 li {
   background: #f7f7f7;
   margin: 8px auto;
@@ -84,4 +83,5 @@ li {
   width: 90%;
   border-radius: 8px;
   text-align: left;
+  animation: fadeInUp 0.25s ease-out;
 }
