@@ -85,3 +85,19 @@ li {
   text-align: left;
   animation: fadeInUp 0.25s ease-out;
 }
+/* existing styles above */
+body { ... }
+.container { ... }
+li { ... }
+
+/* ADD THIS AT THE VERY BOTTOM */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
